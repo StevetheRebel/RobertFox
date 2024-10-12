@@ -1,8 +1,12 @@
 import React from "react";
+import Footer from "../Footer";
 
 function About() {
   return <>
-  <h1 className="pt-16 text-6xl">About</h1>
+  <section className="pt-16 h-dvh ">
+        <h1 className="text-6xl">About Me</h1>
+        <Footer  />
+      </section>
   </>;
 }
 

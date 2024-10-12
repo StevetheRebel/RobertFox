@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="h-16 flex justify-between items-center fixed w-full top-0 p-2 z-50 bg-gray-400">
+      <nav className="h-16 flex justify-between items-center fixed w-full top-0 p-2 z-50 bg-gray-400 font-noto-serif">
         <div className="w-1/2 sm:w-1/3 h-full flex items-center justify-center">
           <img src={logo} alt="Robert Fox Logo" className="w-12" />
         </div>
@@ -58,15 +58,16 @@ function Navbar() {
             </li>
           </ul>
           <div className="flex text-2xl w-1/2 pb-[50%] sm:pb-0 sm:w-1/4 justify-between lg:justify-center lg:gap-8">
-            <a href="https://x.com/SteveAstheRebel" target="_blank">
-              <FontAwesomeIcon icon={faXTwitter} />
-            </a>
-            <a href="http://www.instagram.com">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a href="http://www.dribbble.com">
-              <FontAwesomeIcon icon={faDribbble} />
-            </a>
+          <a href="https://x.com/SteveAstheRebel" target="_blank">
+      <FontAwesomeIcon icon={faXTwitter} />
+    </a>
+    <a href="http://www.instagram.com">
+      <FontAwesomeIcon icon={faInstagram} />
+    </a>
+    <a href="http://www.dribbble.com">
+      <FontAwesomeIcon icon={faDribbble} />
+    </a>
+
           </div>
         </div>
       </nav>
