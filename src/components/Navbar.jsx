@@ -41,17 +41,17 @@ function Navbar() {
           } h-[calc(100dvh-64px)] w-2/3 flex flex-col justify-between items-center py-4 sm:flex sm:flex-row sm:items-center sm:justify-between sm:px-4 sm:h-full sm:relative sm:top-0 z-40`}
         >
           <ul className="flex flex-col w-full justify-between text-xl uppercase gap-8 sm:gap-0 sm:flex-row sm:w-1/2 md:w-2/3 sm:text-lg">
-            <li>
+            <li className="hover:text-darkPurple">
               <Link to="/" onClick={closeMenu}>
                 Home
               </Link>
             </li>
-            <li>
+            <li className="hover:text-darkPurple">
               <Link to="/about" onClick={closeMenu}>
                 About Me
               </Link>
             </li>
-            <li>
+            <li className="hover:text-darkPurple">
               <Link to="/contact" onClick={closeMenu}>
                 Contact
               </Link>
@@ -59,13 +59,13 @@ function Navbar() {
           </ul>
           <div className="flex text-2xl w-1/2 pb-[50%] sm:pb-0 sm:w-1/4 justify-between lg:justify-center lg:gap-8">
           <a href="https://x.com/SteveAstheRebel" target="_blank">
-      <FontAwesomeIcon icon={faXTwitter} />
+      <FontAwesomeIcon icon={faXTwitter} className="hover:text-darkPurple" />
     </a>
-    <a href="http://www.instagram.com">
-      <FontAwesomeIcon icon={faInstagram} />
+    <a href="http://www.instagram.com" target="_blank" >
+      <FontAwesomeIcon icon={faInstagram} className="hover:text-darkPurple" />
     </a>
-    <a href="http://www.dribbble.com">
-      <FontAwesomeIcon icon={faDribbble} />
+    <a href="http://www.dribbble.com" target="_blank">
+      <FontAwesomeIcon icon={faDribbble} className="hover:text-darkPurple" />
     </a>
 
           </div>

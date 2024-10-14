@@ -14,17 +14,17 @@ function Footer() {
 
   return (
     <>
-      <footer className="absolute bottom-0 bg-gray-400 w-full h-auto p-2 font-saira-condensed">
+      <footer className="absolute bottom-0 bg-gray-400 w-full h-auto sm:h-20 p-2 font-saira-condensed">
         <div className="flex flex-col gap-2 justify-between px-8 sm:gap-0 sm:flex-row ">
           <div className="text-3xl flex gap-4 justify-center">
             <a href="https://x.com/SteveAstheRebel" target="_blank">
-              <FontAwesomeIcon icon={faXTwitter} />
+              <FontAwesomeIcon icon={faXTwitter} className="hover:text-darkPurple" />
             </a>
             <a href="http://www.instagram.com">
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faInstagram} className="hover:text-darkPurple" />
             </a>
             <a href="http://www.dribbble.com">
-              <FontAwesomeIcon icon={faDribbble} />
+              <FontAwesomeIcon icon={faDribbble} className="hover:text-darkPurple" />
             </a>
           </div>
           <div>
